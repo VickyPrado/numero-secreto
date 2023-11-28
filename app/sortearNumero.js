@@ -6,7 +6,7 @@ function gerarNumeroAleatorio() {
     return parseInt(Math.random() * maiorValor + 1)
 }
 
-console.log ('Numero Secreto:', numeroSecreto)
+console.log('Número Secreto:', numeroSecreto)
 
 const elementoMenorValor = document.getElementById('menor-valor')
 elementoMenorValor.innerHTML = menorValor
